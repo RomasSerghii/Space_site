@@ -1,0 +1,46 @@
+// Saturn
+.saturn{
+    @include flex-evenly;
+    &_2_stars_left{
+        position: relative;
+        max-width: 83px;
+        max-height: 43px;
+        bottom: 37px;
+        left: 133px;
+    }
+    &_title{
+        max-width: 585px;
+        text-align: center;
+        position: relative;
+        top: 87px;
+        left: 91px;
+    }
+    &_small_star_righ{
+        position: relative;
+        max-width: 18px;
+        max-height: 18px;
+        bottom: 38px;
+        left: 116px;
+    }
+    &_normal_title{
+        font-size: 37px;
+        font-family:$font-secondary;
+        color:$light-yellow-color;
+        line-height: 1;
+    }
+    &_bold_title{
+        text-transform: uppercase; 
+        font-size: 30px;
+        font-family:$font-secondary;
+        color:$light-yellow-color;
+        line-height: 1;
+        font-weight: bold;
+    }
+    &_big_violet{
+        position: relative;
+        bottom: 68px;
+        right: 165px;
+        max-width: 284px;
+        max-height: 287px;
+    }
+}

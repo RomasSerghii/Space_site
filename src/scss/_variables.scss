@@ -1,3 +1,4 @@
+@import url(./fonts/fonts.scss);
 
 $primary-color: #241537;
 $secondary-color:#ffffff;
@@ -8,8 +9,7 @@ $lilac-color:#ebdae6;
 
 
 $font-primary: 'Cocon-Regular', sans-serif;
-$font-size-primary: 36px;
-$font-secondary: 'Exo2.0 Regular', sans-serif;
+$font-secondary: 'Exo2.0-Regular', sans-serif;
 
 $tablet: 768px;
 $mobile: (min-widht: 320px);

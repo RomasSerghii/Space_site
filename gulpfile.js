@@ -25,7 +25,8 @@ const patchs = {
 	img: {
 		src: "./src/img/**/*.{jpg,png,webp,gif,svg}",
 		dist: "./dist/img/"
-	},
+	}
+	
 
 };
 
