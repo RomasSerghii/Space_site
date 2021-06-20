@@ -11,4 +11,3 @@ task/**/*
 *.psd
 lint.yml
 package-lock.json
-package.json
