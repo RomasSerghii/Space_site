@@ -1,0 +1,233 @@
+
+.header{ 
+      background-color: $secondary-color;
+      @include flex-column;
+// Header Box Logo
+      &_logo_bg{ 
+        position: absolute;
+        padding-left: 230px;
+        
+      }
+      &_box{
+        @include flex;
+        max-width: 1170px;
+        margin: 0 auto;
+
+        &_logo{
+          max-height: 82px;
+          max-width: 264px;
+          margin: 31px 0 40px 0px;  
+        } 
+      }
+      &_logo-position{
+        position: relative;
+        right: 95px;
+    
+      }
+      &_planet_purple{
+        margin-top: 42px;
+        margin-left: 80px;
+      }
+      &_small_planet{
+        position: relative;
+        left: 425px;
+        top: 79px;
+        max-height: 22px;
+        max-width: 22px;
+      }
+      &_cloud_long{
+        width: 320px;
+        max-height: 76px;
+        position: relative;
+        top: 100px;
+        left: 228px;
+      }
+      
+// Header Title 
+      &_cloud_small{
+        width: 171px;
+        max-height: 71px;
+        position: absolute;
+        top: 268px;
+        left: 448px;
+      }
+      &_title_box{
+        @include flex-column;
+        @include align-centr;
+        max-width: 555px;
+        margin: 17px auto 0;;
+        
+      }
+      &_title{
+          font-family: $font-primary;
+          font-size: $font-size-primary;
+          color: #241537;
+          text-transform: uppercase;
+          line-height: 1.2;
+         
+        }
+      &_arrow_near_text{
+        background-image: url(/dist/img/Header/arrow_near_text.png);
+        background-repeat: no-repeat;
+        width: 165px;
+        height: 8px;
+        display: block;
+        margin: 4px auto;
+      }
+      &_title-yellow{
+          color:$yellow-color;
+          display: block;
+      }
+
+// Header Form
+      &_form-bg{
+        background-image: url(/dist/img/Header/bg_form_header.png);
+        background-repeat: no-repeat;
+        width: 865px;
+        height: 600px;
+        position: relative;
+        top: 33px;
+        right: 65px;
+        @include flex-between;
+        margin: 0 auto;
+      }
+      &_green_planet{
+        width:75px ;
+        height: 75px;
+        position: relative;
+        top: 34px;
+        right: 39px;
+      }
+      &_form_content{
+        @include flex-column;
+        position: relative;
+        top: 90px;
+        right: 158px;
+        z-index: 7;
+        margin: 0 auto;
+      }
+      &_form_title_info{
+          font-size: 24px;
+          font-family:$font-secondary;
+          color:$secondary-color;
+          max-width: 405px;
+          line-height: 1;
+      }
+      &_title-yellow_info{
+        font-size: 24px;
+        font-family:$font-secondary;
+        color:$yellow-color;
+      }
+      &_form{
+        width: 405px;
+        height: 235px;
+        border-radius: 11px;
+        background-color: rgba(255, 255, 255, 0.1);
+        @include flex-column;
+        @include align-flex-end;
+      }
+      &_form-position{
+        margin-top: 15px;
+      }
+      &_form_box{
+        @include flex-column;
+        margin: 0;
+        
+      }
+      &_form_box-centr{
+        position: relative;
+        right: 15px;
+      }
+      &_form_label{
+        font-size: 16px;
+        font-family:$font-secondary;
+        color:$secondary-color; 
+        position: relative;
+        margin: 8px 0 0 0;
+
+      }
+      &_form_input{
+        border-radius: 10px;
+        background-color:$secondary-color;
+        width: 292px;
+        height: 42px;
+        border: none;
+      }
+      &_form_btn{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family:$font-secondary;
+        color:$secondary-color;
+        background-image: url(/dist/img/Button_color/button.png);
+        background-repeat: no-repeat;
+        border: none;
+        width: 195px;
+        height: 42px;
+        background-color: initial;
+        @include hover-button;   
+      }
+      &_form_btn-position{
+        position: relative;
+        top: 28px;
+        right: 15px;
+      }
+      &_red_planet{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 6px;
+        right: 82px;
+      }
+      &_orange_planet{
+        position: absolute;
+        right: 95px;
+        top: 385px;
+        z-index: 1;
+      }
+      &_woman_on{
+        position: absolute;
+        top: 270px;
+      }
+      &_green_plant{
+        position: absolute;
+        top: 310px;
+        left: 485px;
+        z-index: 7;
+      }
+      &_big_planet{
+        position: absolute;
+        top: 648px;
+        left: 331px;
+        z-index: 7;
+      }
+      &_planet_and{
+        position: absolute;
+        bottom: -443px;
+        left: -15px;
+      }
+      &_space_big_bg{
+        margin-top: -458px;
+      }
+}
+
+
+
+// @media screen and ( min-width: 481px) {
+//   .header{
+//     height: 680px;
+
+//     &__title{
+//       font-size: 72px;
+//     }
+//     &__slogan{
+//       font-size: 24px;
+//     }
+//     &__button{
+//       width: 390px;
+//       height: 65px;
+//       font-size: 21px;
+//       &:after{
+//         left: 20%;
+//       }
+//     }
+//   }

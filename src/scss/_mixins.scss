@@ -1,0 +1,66 @@
+@mixin linkBtn{ 
+    display: inline-block;
+    text-decoration: none;
+	}
+
+@mixin flex {
+    display: flex;
+	}
+
+@mixin flex-column{
+    @include flex;
+    flex-direction: column;
+    }
+
+@mixin align-centr {
+    @include flex;
+    align-items: center;
+    } 
+
+@mixin align-flex-end {
+    @include flex;
+    align-items:flex-end;
+    }
+
+@mixin flex-wrap {
+    @include flex;
+    flex-wrap: wrap;;
+    }
+
+@mixin center-position {
+    @include flex;
+    align-items: center;
+    justify-content: center; 
+    }
+
+@mixin flex-center {
+    @include flex;
+    justify-content: center;
+    }
+    
+@mixin align-items {
+    @include flex;
+   align-items: center;
+    }
+
+@mixin flex-between {
+    @include flex;
+    justify-content: space-between;
+    }
+
+@mixin flex-around {
+    @include flex;
+    justify-content: space-around;
+    }
+    
+@mixin flex-evenly {
+    @include flex;
+    justify-content: space-evenly;
+	}
+
+@mixin hover-button {
+ 
+    &:hover{
+        background-image: url(/dist/img/Button_color/button_hover.png);
+      }
+}
