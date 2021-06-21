@@ -2,6 +2,10 @@
 .header{ 
       background-color: $secondary-color;
       @include flex-column;
+      overflow: hidden;
+      position: relative;
+      background-image: url(../../img/Header/space_big_bg.png);
+      
 // Header Box Logo
       &_logo_bg{ 
         background-image: url(../../../src/img/Header/Logo_BG_header.png);
@@ -211,14 +215,13 @@
         left: -15px;
         z-index: 1;
       }
-      &_space_big_bg{
-        margin-top: -458px;
-        width:1920px ;
-        height: 752px;
-      }
+      // &_space_big_bg{
+      //   width:100% ;
+      //   height: auto;
+      // }
 }
 
-//Media
+// //Media
 
 // @media screen and ( min-width: 375px) {
 //   .header{
@@ -326,7 +329,6 @@
 //         width: 252px;
 //       }
 //       &_form_btn-position {
-  
 //         top: 18px;
 //         right: 62px;
 //       }
@@ -335,6 +337,10 @@
 //       }
 //       &_green_plant{
 //         display: none;
+//       }
+//       &_space_big_bg{
+//         width:100% ;
+//         height: auto;
 //       }
      
    
