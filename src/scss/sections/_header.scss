@@ -4,7 +4,6 @@
       @include flex-column;
       overflow: hidden;
       position: relative;
-      background-image: url(../../img/Header/space_big_bg.png);
       
 // Header Box Logo
       &_logo_bg{ 
@@ -215,10 +214,11 @@
         left: -15px;
         z-index: 1;
       }
-      // &_space_big_bg{
-      //   width:100% ;
-      //   height: auto;
-      // }
+      &_space_big_bg{
+        width:100% ;
+        height: auto;
+        margin-top: -458px;
+      }
 }
 
 // //Media
