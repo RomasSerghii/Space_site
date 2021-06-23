@@ -43,7 +43,7 @@ gulp.src(patchs.scss.src).
 pipe(sass({outputStyle: 'compressed'})).
 pipe(concat('main.min.css')).
 pipe(autoprefixer({
-	browsers : ['> 0.1%'],
+	overrideBrowserslist: ['last 2 versions'],
 	cascade: false
 })).
 pipe(gulp.dest(patchs.scss.dist)).
